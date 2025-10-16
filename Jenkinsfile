@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Slave-1' }
+    agent { label 'slave-1' }
     
     environment {
         NODE_VERSION = '18'
